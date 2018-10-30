@@ -3,10 +3,12 @@
     background-color: #ffffff;
     color: black;
 }
+
 ::-moz-selection {
     background-color: #ffffff;
     color: black;
 }
+
 @font-face {
     font-family: 'shs';
     src: url('../fonts/shs/shs.eot');
@@ -16,11 +18,13 @@
     url('../fonts/shs/shs.ttf') format('truetype'),
     url('../fonts/shs/shs.svg') format('svg');
 }
+
 body, html {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     height: 100%;
 }
+
 /* 第一屏 */
 #header {
     height: 100%;
@@ -33,22 +37,52 @@ body, html {
     animation: hue 8s infinite linear;
     overflow: hidden;
 }
-#vgee-nav {
-    /*background-color: white;*/
+
+#menu{
+    height: 60px;
     width: 100%;
     position: fixed;
-    z-index: 666;
+    z-index: 99;
+    background: rgba(255,255,255,0);
 }
+
+.scroll{
+    background: white!important;
+}
+
+
+.black{
+    height: 40px;
+    width: 220px;
+    margin-top: 10px;
+    background: url("../images/black.svg")!important;
+}
+
+.nav{
+    color: #000!important;
+}
+.nav:after{
+    background-color: #000!important;
+}
+
 #header-logo {
-    line-height: 60px;
+    height: 40px;
+    width: 220px;
+    margin-top: 10px;
+    background: url("../images/white.svg");
+}
+
+#menu ul{
+    float: right;
 }
 
 #header-content {
     color: white;
-    margin-top: 15%;
+    margin-top: 25%;
 }
 .header-content-1,.header-content-2 {
     line-height: 32px;
+    animation: fadeInDown 500ms 1
 }
 .header-content-1 h1,.header-content-2 h1 {
     margin-top: 35px;
@@ -57,5 +91,232 @@ body, html {
 .header-content-btn {
     text-align: center;
     margin-top: 3.5%;
-    animation: fadeInUp 1s 1
+    animation: fadeInUp 500ms 1
+}
+/*第二屏*/
+
+#team h1{
+    color: #000;
+}
+
+.tuanduijieshao{
+    text-align:center;
+    margin-top:5em;
+}
+.team1{
+    margin-top:3em;
+}
+.team2{
+    margin-top: 30px;
+}
+t1{
+    height: 50%;
+}
+.tp img{
+    width: 100%;
+}
+.tpz{
+    width: 100%;
+    height: 100%;
+    background: #26abf3;
+    padding-bottom: 15px;
+}
+.tpz2{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.tpz1{
+  text-align: center;
+    padding-top:20px;
+}
+.tpz3{
+    font-size: 13px;
+    text-align: left;
+    margin-top:1%;
+    padding:40px;
+    line-height:25px;
+}
+.yuan{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background:white;
+    margin: 0 auto;
+    position: relative;
+}
+.yuan1{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(0,0,0,0.5);
+    border-radius:50%;
+    animation: quan1 1.5s infinite;
+    position: relative;
+    left: 3px;
+    top:3px;
+    box-shadow:2px 2px 50px rgba(0,0,0,0.5);
+}
+.yuan2{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(0,0,0,0.5) ;
+    border-radius:50%;
+    animation: quan2 1.5s infinite;
+    position: relative;
+    left: -2px;
+    top:-2px;
+    box-shadow:2px 2px 50px rgba(0,0,0,0.5);
+}
+
+.more{
+    font-size: 12px;
+    position: absolute;
+    left: 10px;
+    top:15px;
+    color: #26abf3;
+}
+.more1{
+    width: 360px;
+    height: 195px;
+    z-index: 99;
+    position: absolute;
+    top:-230px;
+    left:-155px;
+    display: none;
+    background-color:#26abf3;
+    margin:0 auto;
+     padding-top: 100px;
+}
+.yuan:hover .more1{
+    display: block;
+  animation:fadeIn-3dRotate 1s ;
+}
+
+/*服务部分*/
+#service{
+    text-align: center;
+    margin-top: 5em;
+    color: #ffffff;
+}
+
+#service h1{
+    color: #000;
+    margin-bottom: 3%;
+}
+
+#service h2{
+    font-size: 48px;
+    margin-bottom: 3%;
+}
+
+#service p{
+    line-height: 30px;
+}
+
+.s-bg1{
+    background: #10c3f2;
+}
+
+.s-bg2{
+    background: #38cede;
+}
+
+.s-word1,.s-word2,.s-word3{
+    text-align: left;
+}
+
+.s-word1{
+    margin: 20% 3%;
+}
+
+.s-word2{
+    margin: 10% 0;
+}
+
+.s-word3{
+    margin: 8% 0;
+}
+
+/*联系我们部分*/
+#contact {
+    padding: 3% 0 0 0;
+    background: #302828;
+    color: rgba(255, 255, 255, .75);
+}
+
+#contact .section-title {
+    margin-bottom: 40px;
+}
+
+#contact .section-title p {
+    font-size: 16px;
+}
+
+#contact h2 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+#contact .section-title h2::after {
+    position: absolute;
+    content: "";
+    background: rgba(255, 255, 255, .3);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    left: 30px;
+}
+
+#contact h3 {
+    color: #fff;
+    margin-top: 80px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+#contact form {
+    padding-top: 20px;
+}
+
+#contact .text-danger {
+    color: #cc0033;
+    text-align: left;
+}
+
+#contact .btn-custom {
+    margin: 30px 0;
+    background: transparent;
+    border: 2px solid #fff;
+    color: white
+}
+
+#contact .btn-custom:hover {
+    color: #1f386e;
+    background: #fff;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 400;
+    float: left;
+}
+
+#contact .form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #444;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
 }
