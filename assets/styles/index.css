@@ -1,0 +1,61 @@
+/* 初始化 */
+::selection {
+    background-color: #ffffff;
+    color: black;
+}
+::-moz-selection {
+    background-color: #ffffff;
+    color: black;
+}
+@font-face {
+    font-family: 'shs';
+    src: url('../fonts/shs/shs.eot');
+    src: url('../fonts/shs/shs.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/shs/shs.woff2') format('woff2'),
+    url('../fonts/shs/shs.woff') format('woff'),
+    url('../fonts/shs/shs.ttf') format('truetype'),
+    url('../fonts/shs/shs.svg') format('svg');
+}
+body, html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    height: 100%;
+}
+/* 第一屏 */
+#header {
+    height: 100%;
+    color: white;
+    background-image: radial-gradient(circle 100px at center, #16d9e3 0%, #30c7ec 50%, #46aef7 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    animation: hue 8s infinite linear;
+    overflow: hidden;
+}
+#vgee-nav {
+    /*background-color: white;*/
+    width: 100%;
+    position: fixed;
+    z-index: 666;
+}
+#header-logo {
+    line-height: 60px;
+}
+
+#header-content {
+    color: white;
+    margin-top: 15%;
+}
+.header-content-1,.header-content-2 {
+    line-height: 32px;
+}
+.header-content-1 h1,.header-content-2 h1 {
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
+.header-content-btn {
+    text-align: center;
+    margin-top: 3.5%;
+    animation: fadeInUp 1s 1
+}
