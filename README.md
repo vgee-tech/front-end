@@ -1,2 +1,1 @@
-# front-end
-Hasaki
+# the front end of VGee.Tech official website
