@@ -1,0 +1,1389 @@
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes fadeInDownFarther {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50px, 0);
+        transform: translate3d(0, -50px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInDownFarther {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -50px, 0);
+        transform: translate3d(0, -50px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes centerFadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-50%, -20px, 0);
+        transform: translate3d(-50%, -20px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0)
+    }
+}
+
+@keyframes centerFadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-50%, -20px, 0);
+        transform: translate3d(-50%, -20px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0)
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+@-webkit-keyframes fadeInUpFarther {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInUpFarther {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 20px, 0);
+        transform: translate3d(0, 20px, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        transform: scale(.3)
+    }
+}
+
+@keyframes zoomIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(.3);
+        transform: scale(.3)
+    }
+}
+
+@-webkit-keyframes growTaller {
+    0% {
+        opacity: 0;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes growTaller {
+    0% {
+        opacity: 0;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes growFatter {
+    0% {
+        opacity: 0;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes growFatter {
+    0% {
+        opacity: 0;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg)
+    }
+    to {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+@keyframes rotate {
+    0% {
+        -webkit-transform: rotate(-180deg);
+        transform: rotate(-180deg)
+    }
+    to {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+@-webkit-keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100px, 0, 0);
+        transform: translate3d(100px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100px, 0, 0);
+        transform: translate3d(100px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100px, 0, 0);
+        transform: translate3d(-100px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-100px, 0, 0);
+        transform: translate3d(-100px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes fadeInLeftSmall {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInLeftSmall {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes fadeInRightSmall {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInRightSmall {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes flipIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: rotateY(-90deg);
+        transform: rotateY(-90deg)
+    }
+}
+
+@keyframes flipIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: rotateY(-90deg);
+        transform: rotateY(-90deg)
+    }
+}
+
+@-webkit-keyframes backFadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(25px, 0, 0);
+        transform: translate3d(25px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes backFadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(25px, 0, 0);
+        transform: translate3d(25px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes frontFadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-25px, 0, 0);
+        transform: translate3d(-25px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes frontFadeIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-25px, 0, 0);
+        transform: translate3d(-25px, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes rotateCircle {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes rotateCircle {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes pathCircle {
+    0% {
+        stroke-dashoffset: 2214px;
+        stroke-dasharray: 2214px
+    }
+    to {
+        stroke-dashoffset: 0px;
+        stroke-dasharray: 6px, 4px
+    }
+}
+
+@keyframes pathCircle {
+    0% {
+        stroke-dashoffset: 2214px;
+        stroke-dasharray: 2214px
+    }
+    to {
+        stroke-dashoffset: 0px;
+        stroke-dasharray: 6px, 4px
+    }
+}
+
+@-webkit-keyframes fadeInRectanger {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0)
+    }
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@keyframes fadeInRectanger {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10px, 0);
+        transform: translate3d(0, 10px, 0)
+    }
+    to {
+        -webkit-transform: none;
+        transform: none
+    }
+}
+
+@-webkit-keyframes lineCircle {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes lineCircle {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn)
+    }
+}
+
+@-webkit-keyframes fadeIn-3dRotate {
+    0% {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0)
+    }
+    to {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1)
+    }
+}
+
+@keyframes fadeIn-3dRotate {
+    0% {
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0)
+    }
+    to {
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1)
+    }
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translateY(15px);
+        transform: translateY(15px)
+    }
+    to {
+        -webkit-transform: translateY(-85px);
+        transform: translateY(-85px)
+    }
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateY(15px);
+        transform: translateY(15px)
+    }
+    to {
+        -webkit-transform: translateY(-85px);
+        transform: translateY(-85px)
+    }
+}
+
+@-webkit-keyframes show1 {
+    0% {
+        opacity: 0
+    }
+    8.33% {
+        opacity: 1
+    }
+    49.98% {
+        opacity: 1
+    }
+    58.31% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes show1 {
+    0% {
+        opacity: 0
+    }
+    8.33% {
+        opacity: 1
+    }
+    49.98% {
+        opacity: 1
+    }
+    58.31% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes show2 {
+    0% {
+        opacity: 0
+    }
+    8.33% {
+        opacity: 0
+    }
+    16.66% {
+        opacity: 1
+    }
+    58.31% {
+        opacity: 1
+    }
+    66.64% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes show2 {
+    0% {
+        opacity: 0
+    }
+    8.33% {
+        opacity: 0
+    }
+    16.66% {
+        opacity: 1
+    }
+    58.31% {
+        opacity: 1
+    }
+    66.64% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes show3 {
+    0% {
+        opacity: 0
+    }
+    16.66% {
+        opacity: 0
+    }
+    24.99% {
+        opacity: 1
+    }
+    66.64% {
+        opacity: 1
+    }
+    74.97% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes show3 {
+    0% {
+        opacity: 0
+    }
+    16.66% {
+        opacity: 0
+    }
+    24.99% {
+        opacity: 1
+    }
+    66.64% {
+        opacity: 1
+    }
+    74.97% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes show4 {
+    0% {
+        opacity: 0
+    }
+    24.99% {
+        opacity: 0
+    }
+    33.32% {
+        opacity: 1
+    }
+    74.97% {
+        opacity: 1
+    }
+    83.3% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes show4 {
+    0% {
+        opacity: 0
+    }
+    24.99% {
+        opacity: 0
+    }
+    33.32% {
+        opacity: 1
+    }
+    74.97% {
+        opacity: 1
+    }
+    83.3% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes show5 {
+    0% {
+        opacity: 0
+    }
+    33.32% {
+        opacity: 0
+    }
+    41.65% {
+        opacity: 1
+    }
+    83.3% {
+        opacity: 1
+    }
+    91.63% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes show5 {
+    0% {
+        opacity: 0
+    }
+    33.32% {
+        opacity: 0
+    }
+    41.65% {
+        opacity: 1
+    }
+    83.3% {
+        opacity: 1
+    }
+    91.63% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes show6 {
+    0% {
+        opacity: 0
+    }
+    41.65% {
+        opacity: 0
+    }
+    49.98% {
+        opacity: 1
+    }
+    91.63% {
+        opacity: 1
+    }
+    99.96% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes show6 {
+    0% {
+        opacity: 0
+    }
+    41.65% {
+        opacity: 0
+    }
+    49.98% {
+        opacity: 1
+    }
+    91.63% {
+        opacity: 1
+    }
+    99.96% {
+        opacity: 0
+    }
+    to {
+        opacity: 0
+    }
+}
+/* 第一屏滚动一 */
+.lines {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.lines, .r-1 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.r-1 {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.r-2 {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.r-2, .r-3 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.r-3 {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.leg {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform-origin: 0;
+    transform-origin: 0
+}
+
+.leg-1 {
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s
+}
+
+.leg-2 {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s
+}
+
+.leg-3 {
+    -webkit-animation-delay: 2.6s;
+    animation-delay: 2.6s
+}
+
+.leg-4 {
+    -webkit-animation-delay: 2.7s;
+    animation-delay: 2.7s
+}
+
+.leg-5 {
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s
+}
+
+/* 第一屏滚动二 */
+.outer-border {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.inner-border, .outer-border {
+    -webkit-animation-name: fadeInDownFarther;
+    animation-name: fadeInDownFarther;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.inner-border {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.rects g:first-child {
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.rects g:first-child, .rects g:nth-child(2) {
+    -webkit-animation-name: fadeInDownFarther;
+    animation-name: fadeInDownFarther;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.rects g:nth-child(2) {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.rects g:nth-child(3) {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.rects g:nth-child(3), .rects g:nth-child(4) {
+    -webkit-animation-name: fadeInDownFarther;
+    animation-name: fadeInDownFarther;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.rects g:nth-child(4) {
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+.ellipses g {
+    -webkit-animation-name: fadeInDownFarther;
+    animation-name: fadeInDownFarther;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.dashlines {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 2.6s;
+    animation-delay: 2.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:first-child {
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+    -webkit-animation-duration: 1.27s;
+    animation-duration: 1.27s;
+    -webkit-animation-delay: 3.1s;
+    animation-delay: 3.1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:first-child :nth-child(1) {
+    -webkit-animation-name: show1;
+    animation-name: show1;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:first-child :nth-child(1), .symbols > g:first-child :nth-child(2) {
+    -webkit-animation-duration: 1.27s;
+    animation-duration: 1.27s;
+    -webkit-animation-delay: 3.1s;
+    animation-delay: 3.1s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:first-child :nth-child(2) {
+    -webkit-animation-name: show2;
+    animation-name: show2;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:first-child :nth-child(3) {
+    -webkit-animation-name: show3;
+    animation-name: show3;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:first-child :nth-child(3), .symbols > g:first-child :nth-child(4) {
+    -webkit-animation-duration: 1.27s;
+    animation-duration: 1.27s;
+    -webkit-animation-delay: 3.1s;
+    animation-delay: 3.1s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:first-child :nth-child(4) {
+    -webkit-animation-name: show4;
+    animation-name: show4;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:first-child :nth-child(5) {
+    -webkit-animation-name: show5;
+    animation-name: show5;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:first-child :nth-child(5), .symbols > g:first-child :nth-child(6) {
+    -webkit-animation-duration: 1.27s;
+    animation-duration: 1.27s;
+    -webkit-animation-delay: 3.1s;
+    animation-delay: 3.1s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:first-child :nth-child(6) {
+    -webkit-animation-name: show6;
+    animation-name: show6;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(2) {
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+    -webkit-animation-duration: 1.37s;
+    animation-duration: 1.37s;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(2) :first-child {
+    -webkit-animation-name: show1;
+    animation-name: show1;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(2) :first-child, .symbols > g:nth-child(2) :nth-child(2) {
+    -webkit-animation-duration: 1.37s;
+    animation-duration: 1.37s;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(2) :nth-child(2) {
+    -webkit-animation-name: show2;
+    animation-name: show2;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(2) :nth-child(3) {
+    -webkit-animation-name: show3;
+    animation-name: show3;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(2) :nth-child(3), .symbols > g:nth-child(2) :nth-child(4) {
+    -webkit-animation-duration: 1.37s;
+    animation-duration: 1.37s;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(2) :nth-child(4) {
+    -webkit-animation-name: show4;
+    animation-name: show4;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(2) :nth-child(5) {
+    -webkit-animation-name: show5;
+    animation-name: show5;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(2) :nth-child(5), .symbols > g:nth-child(2) :nth-child(6) {
+    -webkit-animation-duration: 1.37s;
+    animation-duration: 1.37s;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(2) :nth-child(6) {
+    -webkit-animation-name: show6;
+    animation-name: show6;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(3) {
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+    -webkit-animation-duration: .93s;
+    animation-duration: .93s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(3) :first-child {
+    -webkit-animation-name: show1;
+    animation-name: show1;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(3) :first-child, .symbols > g:nth-child(3) :nth-child(2) {
+    -webkit-animation-duration: .93s;
+    animation-duration: .93s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(3) :nth-child(2) {
+    -webkit-animation-name: show2;
+    animation-name: show2;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(3) :nth-child(3) {
+    -webkit-animation-name: show3;
+    animation-name: show3;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(3) :nth-child(3), .symbols > g:nth-child(3) :nth-child(4) {
+    -webkit-animation-duration: .93s;
+    animation-duration: .93s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(3) :nth-child(4) {
+    -webkit-animation-name: show4;
+    animation-name: show4;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(3) :nth-child(5) {
+    -webkit-animation-name: show5;
+    animation-name: show5;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(3) :nth-child(5), .symbols > g:nth-child(3) :nth-child(6) {
+    -webkit-animation-duration: .93s;
+    animation-duration: .93s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(3) :nth-child(6) {
+    -webkit-animation-name: show6;
+    animation-name: show6;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(4) {
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+    -webkit-animation-duration: .97s;
+    animation-duration: .97s;
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(4) :first-child {
+    -webkit-animation-name: show1;
+    animation-name: show1;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(4) :first-child, .symbols > g:nth-child(4) :nth-child(2) {
+    -webkit-animation-duration: .97s;
+    animation-duration: .97s;
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(4) :nth-child(2) {
+    -webkit-animation-name: show2;
+    animation-name: show2;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(4) :nth-child(3) {
+    -webkit-animation-name: show3;
+    animation-name: show3;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(4) :nth-child(3), .symbols > g:nth-child(4) :nth-child(4) {
+    -webkit-animation-duration: .97s;
+    animation-duration: .97s;
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(4) :nth-child(4) {
+    -webkit-animation-name: show4;
+    animation-name: show4;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(4) :nth-child(5) {
+    -webkit-animation-name: show5;
+    animation-name: show5;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+.symbols > g:nth-child(4) :nth-child(5), .symbols > g:nth-child(4) :nth-child(6) {
+    -webkit-animation-duration: .97s;
+    animation-duration: .97s;
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
+    -webkit-transform-origin: center;
+    transform-origin: center
+}
+
+.symbols > g:nth-child(4) :nth-child(6) {
+    -webkit-animation-name: show6;
+    animation-name: show6;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
