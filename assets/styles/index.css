@@ -48,6 +48,8 @@ body, html {
 
 .scroll{
     background: white!important;
+    box-shadow: 0 1px 3px 1px #1688ec;
+
 }
 
 
@@ -238,6 +240,7 @@ t1{
 
 /*联系我们部分*/
 #contact {
+    /*height: 550px;*/
     padding: 3% 0 0 0;
     background: #302828;
     color: rgba(255, 255, 255, .75);
@@ -260,7 +263,7 @@ t1{
 
 #contact .section-title h2::after {
     position: absolute;
-    content: "";
+    /*content: "";*/
     background: rgba(255, 255, 255, .3);
     height: 4px;
     width: 60px;
@@ -286,10 +289,13 @@ t1{
 }
 
 #contact .btn-custom {
-    margin: 30px 0;
+    margin: 7% 0;
     background: transparent;
     border: 2px solid #fff;
-    color: white
+    color: white;
+    border-radius: 100px;
+    height: 40px;
+    width: 120px;
 }
 
 #contact .btn-custom:hover {
@@ -319,4 +325,68 @@ label {
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
+}
+
+.message{
+    margin-top: 20px;
+}
+
+#contact .social {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 10px;
+    text-align: center;
+}
+
+#contact .social ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#contact .social i.fa {
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    padding: 12px 0;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+#contact .social i.fa:hover {
+    color: black;
+    background: #fff;
+}
+
+.icon-weibo:hover{
+    color: #d82020;
+}
+
+.icon-qq:hover{
+    color: #2188fc;
+}
+
+.icon-unie655:hover{
+    color: #1ed41e;
+}
+
+/* 底部 */
+#footer {
+    height: 70px;
+    background: #302828;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#footer p {
+    color: white;
+    font-size: 15px;
+}
+
+#footer a {
+    color: black;
+}
+
+#footer a:hover {
+    border-bottom: 2px solid black;
 }

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/styles/index.css">
     <link rel="stylesheet" href="assets/styles/frames.css">
     <link rel="stylesheet" href="assets/styles/animations.css">
+    <link rel="stylesheet" href="assets/fonts/iconfont/iconfont.css">
     <title>惟极 - VGee.Tech</title>
     <!--[if lt IE 9]>
     <script src="assets/scripts/html5shiv.min.js"></script>
@@ -315,8 +316,8 @@
     <div class="s-bg1">
         <div class="layui-container">
             <div class="layui-row">
-                <div class="layui-col-md6 s-pic1"><img src="assets/images/a.png"/></div>
-                <div class="layui-col-md5 s-word1">
+                <div class="layui-col-md6 layui-col-sm6 layui-hide-xs s-pic1"><img src="assets/images/a.png"/></div>
+                <div class="layui-col-md5 layui-col-sm12 layui-col-xs12 s-word1">
                     <h2>手机安全建站</h2>
                     <p>手机一键创建，轻松换肤在线实时编辑。功能定时更新，多重保障移动网络加载速度快，为手机上网用户提供更好体验更适合新媒体推广。</p>
                 </div>
@@ -326,19 +327,19 @@
     <div class="s-bg2">
         <div class="layui-container">
             <div class="layui-row">
-                <div class="layui-col-md5 s-word2">
+                <div class="layui-col-md5 layui-col-sm12 layui-col-xs12 s-word2">
                     <h2>云服务超稳定</h2>
                     <p>多地分布式云主机集群，不停机更新，确保不丢单。我们有竞争力的定价匹配策略意味着你能借助我们的云存储获得巨大的收益和技术支持。</p>
                 </div>
-                <div class="layui-col-md6 s-pic2"><img src="assets/images/b.png"/></div>
+                <div class="layui-col-md6 layui-col-sm6 layui-hide-xs s-pic2"><img src="assets/images/b.png"/></div>
             </div>
         </div>
     </div>
     <div class="s-bg1">
         <div class="layui-container">
             <div class="layui-row">
-                <div class="layui-col-md6 s-pic3"><img src="assets/images/c.png"/></div>
-                <div class="layui-col-md5 s-word3">
+                <div class="layui-col-md6 layui-col-sm6 layui-hide-xs s-pic3"><img src="assets/images/c.png"/></div>
+                <div class="layui-col-md5 layui-col-sm12 layui-col-xs12 s-word3">
                     <h2>电商平台解决方案</h2>
                     <p>我们具备多年电商平台建设经验，特别针对跨境进出口电商平台有着丰富的建设经验。专业资深的网站设计团队针对有品牌意识的企业，提辅助企业构建互联网竞争力。</p>
                 </div>
@@ -349,39 +350,62 @@
 <div id="contact">
     <div class="layui-container">
         <div class="layui-row">
-            <div class="section-title">
-                <h2>联系我们</h2>
-                <p>您可以通过填写下面的表单、致电或者发送电子邮件等方式来与我们取得联系。</p>
+            <div class="layui-col-md5">
+                <div class="section-title">
+                    <h2>联系我们</h2>
+                    <p>您可以通过填写下面的表单、致电或者发送电子邮件等方式来与我们取得联系。</p>
+                </div>
+                <form>
+                    <div class="layui-row">
+                        <div class="layui-col-md6">
+                            <div class="form-group" style="padding-right: 20%;">
+                                <input type="text" id="name" class="form-control" placeholder="Name"
+                                       required="required">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="layui-col-md6">
+                            <div class="form-group" style="padding-left: 13%;">
+                                <input type="email" id="email" class="form-control" placeholder="Email"
+                                       required="required">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group message">
+                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"
+                                  required></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <button type="submit" class="btn btn-custom btn-lg">给我们留言</button>
+                </form>
             </div>
-            <form>
-                <div class="layui-row layui-col-md6" style="margin-bottom: 2%;">
-                    <div class="layui-col-md5">
-                        <div class="form-group" style="margin-right: 10%;">
-                            <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
-                    <div class="layui-col-md5">
-                        <div class="form-group" style="margin-left: 10%;">
-                            <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                            <p class="help-block text-danger"></p>
-                        </div>
-                    </div>
+            <div class="layui-col-md6 col-md-offset-1 contact-info">
+                <div style="height:500px" id="dituContent"></div>
+            </div>
+            <div class="layui-col-md12">
+                <div class="social">
+                    <ul>
+                        <li><a href="#"><i class="iconfont icon-qq"></i></a></li>
+                        <li><a href="#"><i class="iconfont icon-unie655"></i></a></li>
+                        <li><a href="#"><i class="iconfont icon-weibo"></i></a></li>
+                    </ul>
                 </div>
-                <div class="form-group">
-                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"
-                              required></textarea>
-                    <p class="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" class="btn btn-custom btn-lg">给我们留言</button>
-            </form>
+            </div>
         </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="layui-container">
+        <p>Copyright &copy; 2018 VGee.Tech 版权所有</p>
+        <p>鄂ICP备16023358号</p>
+        <p>鄂公网安备42018602000108号</p>
     </div>
 </div>
 <script src="assets/layui/layui.js"></script>
 <script src="assets/scripts/jquery.min.js"></script>
 <script src="assets/scripts/index.js"></script>
+<script src="assets/scripts/getmap.js"></script>
 
 </body>
 </html>

@@ -24,3 +24,4 @@ $(function() {
         $(window).scrollTop() > 200 ? $(".a").addClass("nav") : $(".a").removeClass("nav");
     });
 });
+
